@@ -19,7 +19,7 @@ public class CompanyResource {
 	public Company getSequence() {
 		Company comp = new Company();
 		comp.setName("Nipuna (Pvt) Ltd : " + Math.random());
-		comp.setAddress("Company Address : " + Math.random());
+		comp.setAddress("Product Address : " + Math.random());
 		return compRepo.save(comp);
 	}
 
